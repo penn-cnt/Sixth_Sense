@@ -1,0 +1,27 @@
+name: ieegpy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - black
+  - openpyxl
+  - ipykernel
+  - ipympl
+  - pqdm
+  - statsmodels
+  - nb_conda_kernels
+  - pip
+  - requests
+  - pip:
+    - git+https://github.com/ieeg-portal/ieegpy
+    - pennprov
+    - confidenceinterval
